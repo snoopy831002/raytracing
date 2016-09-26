@@ -6,7 +6,7 @@ CC ?= gcc
 CFLAGS = \
 	-std=gnu99 -Wall -o0 -g
 LDFLAGS = \
-	-lm -lgomp
+	-lm
 
 ifeq ($(strip $(PROFILE)),1)
 PROF_FLAGS = -pg
