@@ -4,7 +4,7 @@ all: $(EXEC)
 
 CC ?= gcc
 CFLAGS = \
-	-fopenmp -std=gnu99 -Wall -o0 -g
+	-fopenmp -std=gnu99 -Wall -O0 -g
 LDFLAGS = \
 	-lm -lgomp
 
